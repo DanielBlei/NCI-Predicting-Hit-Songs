@@ -12,8 +12,8 @@ import itertools
 #-----------------------------------------------------------------------------------------------------------------------
 #setting the ID and Secret key.
 
-id='34d2011168e24a00a86281b2d9cd7630'
-secret='e90da99d7c7f44b38d1a2349449393ee'
+id='xxxxxxxxxx'
+secret='xxxxxxxxxxx'
 ruri='http://www.google.com'
 username = ''
 
