@@ -255,7 +255,7 @@ df_test.spirit[(df_test['valence'] < 0.19)] = 1
 df_test.spirit[(df_test['valence'] >= 0.19) & (df_test['valence'] < 0.83)] = 2
 df_test.spirit[(df_test['valence'] > 0.83)] = 3
 
-df = df.drop(['dance','acoustic','volume','vocal','tempo1','liveness','time_signature','flow'], axis=1)
+df = df.drop(['liveness','time_signature'], axis=1)
 df_test = df_test.drop(['liveness','time_signature'],axis=1)
 
 #------------------------------------------------------------------------------------------------------------------------
